@@ -133,7 +133,8 @@ export const App = () => {
 		return (
 			<>
 				<main>
-					<h1>Form</h1>
+					<h1>WikiVerse Form</h1>
+					<h2>Add a page</h2>
 					<h4>Add Title</h4>
 					<input type="text" placeholder="Enter Title" onChange = {(e) => setTitle(e.target.value)}/>
 					<h4>Content</h4>
