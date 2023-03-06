@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-export const Page = (props) => {
+export const Page = ({page}) => {
 
-  return <>
-    <h3>{props.page.title}</h3>
-  </>
+
+  return( <>
+    
+    <h3>{page.title}</h3>
+    
+  </>)
 } 
 	
